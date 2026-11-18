@@ -170,7 +170,7 @@ footer{margin-top:80px;padding-top:20px;border-top:1px solid var(--line);display
           <span class="eyebrow">Mobile web app · 2026</span>
           <h2>DinkMatch</h2>
           <p>Helping pickleball players find skill-matched doubles partners for a court they've already booked.</p>
-          <div class="tags"><span>User testing</span><span>Mobile UX</span><span>Full-stack MVP</span></div>
+          <div class="tags"><span>User testing</span><span>Mobile UX</span><span>Full-stack MVP</span><span>AI-assisted build</span></div>
           <span class="go">View project →</span>
         </div>
       </a>
@@ -336,6 +336,7 @@ footer{margin-top:80px;padding-top:20px;border-top:1px solid var(--line);display
       <a href="#dm-scope">Scope &amp; key screens</a>
       <a href="#dm-decisions">Design decisions</a>
       <a href="#dm-testing">Testing with players</a>
+      <a href="#dm-ai">How I used AI</a>
       <a href="#dm-next">What's next</a>
     </div>
 
@@ -403,6 +404,17 @@ footer{margin-top:80px;padding-top:20px;border-top:1px solid var(--line);display
               <li><b>Simpler navigation.</b> The app now has four tabs: Home, Open plays, Create and You.</li>
               <li><b>Autofill.</b> Forms start from your rating and the most common choices, so players don't retype the same details for every game.</li>
             </ul>
+          </div>
+        </div>
+      </details>
+
+      <details id="dm-ai">
+        <summary><h3>How I used AI</h3><span class="teaser">Building with Cursor while the design decisions stayed mine</span><span class="plus" aria-hidden="true">+</span></summary>
+        <div class="sec">
+          <div class="text" style="max-width:46em">
+            <p>I built DinkMatch with Cursor as my AI coding assistant. That let me move from a design idea to a working prototype in hours instead of days. It mattered because I was testing with real players: across five rounds with seven players, I could turn each round's feedback into a new version before the next session.</p>
+            <p>I treated Cursor's output as a first draft, not a final answer. I reviewed and tested every change it made, and I seeded demo data so I could walk through full user flows and catch bugs before players saw them.</p>
+            <p>The search filters are a good example. The first version had a long list of filter options that players had to work through before they saw any matches. Over several iterations, I autopopulated much of that information so players didn't have to enter it themselves. That made the search much shorter. Cursor let me build and test each version quickly, but the decision about what to cut came from watching players use it.</p>
           </div>
         </div>
       </details>
